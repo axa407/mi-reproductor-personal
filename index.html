@@ -123,7 +123,6 @@
     </div>
 
     <script>
-        // ESPACIO AGREGADO: Usá la propiedad 'cd' en cada objeto para poner la imagen del CD original.
         const datos = [
             {
                 artista: "La Vela Puerca", album: "A Contraluz", portada: "https://cdn-images.dzcdn.net/images/cover/dcf0cfa51fbd983797fd9bd803773e92/0x1900-000000-80-0-0.jpg",
@@ -158,13 +157,13 @@
                     { pos: 6, nombre: "Capitulo 2 Araucaria", archivo: "Capitulo2Araucaria.mp3" },
                     { pos: 7, nombre: "¿Ves?", archivo: "Ves.mp3" },
                     { pos: 8, nombre: "Sin Avisar", archivo: "SinAvisar.mp3" },
-                    { pos: 9, nombre: "Habeo", archivo: "Habeo.mp3" },
+                    { pos: 9, font: "", nombre: "Habeo", archivo: "Habeo.mp3" },
                     { pos: 10, nombre: "La Madeja", archivo: "LaMadeja.mp3" },
                     { pos: 11, nombre: "Capitulo 3 El Agua", archivo: "Capitulo3ElAgua.mp3" },
                     { pos: 12, nombre: "Cancion Para Uno", archivo: "CancionParaUno.mp3" },
                     { pos: 13, nombre: "Mi Tension", archivo: "MiTension.mp3" },
                     { pos: 14, nombre: "La Vuelta Al Sol", archivo: "LaVueltaalSol.mp3" },
-                    { pos: 15, nombre: "Su Ley", archivo: "SuLey.mp3" },
+                    { pos: 15, font: "", nombre: "Su Ley", archivo: "SuLey.mp3" },
                     { pos: 16, nombre: "Epilogo", archivo: "Epilogo.mp3" }
                 ]
             },
@@ -177,7 +176,7 @@
                     { pos: 3, nombre: "Aquí No Podemos Hacerlo", archivo: "AQUINOPODEMOSHACERLO.mp3" },
                     { pos: 4, nombre: "Todavía Una Canción de Amor", archivo: "TODAVIAUNACANCIONDEAMOR.mp3" },
                     { pos: 5, nombre: "Para No Olvidar", archivo: "PARANOOLVIDAR.mp3" },
-                    { pos: 6, nombre: "El Tiempo Lo Dira", archivo: "ELTIEMPODIRA.mp3" },
+                    { pos: 6, font: "", nombre: "El Tiempo Lo Dira", archivo: "ELTIEMPODIRA.mp3" },
                     { pos: 7, nombre: "En un Hotel de Mil Estrellas", archivo: "ENUNHOTELDEMILESTRELLAS.mp3" },
                     { pos: 8, nombre: "Mucho Mejor", archivo: "MUCHOMEJOR.mp3" },
                     { pos: 9, nombre: "La Puerta de al Lado", archivo: "LAPUERTADEALLADO.mp3" },
@@ -185,7 +184,7 @@
                     { pos: 11, nombre: "Extraño", archivo: "EXTRAÑO.mp3" },
                     { pos: 12, nombre: "10 Años Despues", archivo: "10AÑOSDESPUES.mp3" },
                     { pos: 13, nombre: "Algunos Hombres Buenos", archivo: "ALGUNOHOMBRESBUENOS.mp3" },
-                    { pos: 14, nombre: "", archivo: "" }, { pos: 15, nombre: "", archivo: "" }, { pos: 16, nombre: "", archivo: "" }
+                    { pos: 14, nombre: "", archivo: "" }, { pos: 15, font: "", nombre: "", archivo: "" }, { pos: 16, nombre: "", archivo: "" }
                 ]
             },
             {
@@ -199,12 +198,12 @@
                     { pos: 5, nombre: "Por Colectora", archivo: "porcolectora.mp3" },
                     { pos: 6, nombre: "Amar y Envejecer", archivo: "amaryenvejecer.mp3" },
                     { pos: 7, nombre: "Otra Vuelta de Tuerca", archivo: "otravueltadetuerca.mp3" },
-                    { pos: 8, nombre: "Viejo", archivo: "viejo.mp3" },
+                    { pos: 8, font: "", nombre: "Viejo", archivo: "viejo.mp3" },
                     { pos: 9, nombre: "Osiris", archivo: "osiris.mp3" },
                     { pos: 10, nombre: "Desde la Postura", archivo: "desdelapostura.mp3" },
                     { pos: 11, nombre: "Locura y Realidad", archivo: "locurayrealidad.mp3" },
-                    { pos: 12, nombre: "Historias", archivo: "historias.mp3" },
-                    { pos: 13, nombre: "", archivo: "" }, { pos: 14, nombre: "", archivo: "" }, { pos: 15, nombre: "", archivo: "" }, { pos: 16, nombre: "", archivo: "" }
+                    { pos: 12, font: "", nombre: "Historias", archivo: "historias.mp3" },
+                    { pos: 13, nombre: "", archivo: "" }, { pos: 14, nombre: "", archivo: "" }, { pos: 15, font: "", nombre: "", archivo: "" }, { pos: 16, nombre: "", archivo: "" }
                 ]
             },
             {
@@ -241,7 +240,7 @@
                     { pos: 8, nombre: "El Tercio de Los Sueños", archivo: "tercio.mp3" },
                     { pos: 9, nombre: "Comida China", archivo: "comidachina.mp3" },
                     { pos: 10, nombre: "Elvis Está Vivo", archivo: "elvis.mp3" },
-                    { pos: 11, nombre: "Me Arde", archivo: "mearde.mp3" },
+                    { pos: 11, font: "", nombre: "Me Arde", archivo: "mearde.mp3" },
                     { pos: 12, nombre: "Crimenes Perfectos", archivo: "crimenes.mp3" },
                     { pos: 13, nombre: "Nunca Es Igual", archivo: "nuncaesigual.mp3" },
                     { pos: 14, nombre: "El Novio Del Olvido", archivo: "novio.mp3" },
@@ -286,6 +285,51 @@
                     { pos: 11, nombre: "La Casada", archivo: "casada.mp3" },
                     { pos: 12, nombre: "Resulta Imposible (Candombe II)", archivo: "imposible.mp3" },
                     { pos: 13, nombre: "", archivo: "" }, { pos: 14, nombre: "", archivo: "" }, { pos: 15, nombre: "", archivo: "" }, { pos: 16, nombre: "" }
+                ]
+            },
+            {
+                artista: "Las Pastillas del Abuelo", 
+                album: "Acusticos e Ineditos", 
+                portada: "https://upload.wikimedia.org/wikipedia/commons/3/3b/AC%C3%9ASTICOPORTADA.jpg",
+                cd: "https://upload.wikimedia.org/wikipedia/commons/3/3b/AC%C3%9ASTICOPORTADA.jpg",
+                temas: [
+                    { pos: 1, nombre: "Enano", archivo: "enanoc.mp3" },
+                    { pos: 2, nombre: "El Sensei", archivo: "sensei.mp3" },
+                    { pos: 3, nombre: "Lo Mas Fino", archivo: "finoc.mp3" },
+                    { pos: 4, nombre: "Loco por volverla a ver", archivo: "lococ.mp3" },
+                    { pos: 5, nombre: "Historias", archivo: "historiasc.mp3" },
+                    { pos: 6, nombre: "Cerveza", archivo: "cervezac.mp3" },
+                    { pos: 7, nombre: "La Casada", archivo: "casadac.mp3" },
+                    { pos: 8, nombre: "Lo Mas Lindo", archivo: "lindo.mp3" },
+                    { pos: 9, nombre: "Princesa", archivo: "princesa.mp3" },
+                    { pos: 10, nombre: "Viejo", archivo: "viejoc.mp3" },
+                    { pos: 11, nombre: "Solo Dios (AlmaFuerte)", archivo: "solodiosc.mp3" },
+                    { pos: 12, nombre: "Saber Cuando Parar", archivo: "pararc.mp3" },
+                    { pos: 13, font: "", nombre: "Clasica y Moderna", archivo: "clasica.mp3" },
+                    { pos: 14, nombre: "Locura y Realidad", archivo: "locurac.mp3" },
+                    { pos: 15, nombre: "¿Me Juego El Corazon?", archivo: "mejuego.mp3" },
+                    { pos: 16, nombre: "Doctora II", archivo: "doctora.mp3" }
+                ]
+            },
+            {
+                artista: "Cuarteto de Nos", 
+                album: "Porfiado", 
+                portada: "https://static.wikia.nocookie.net/cuarteto-de-nos/images/c/ce/Porfiado.png/revision/latest?cb=20220615181109&path-prefix=es",
+                cd: "https://images.coveralia.com/audio/e/El_Cuarteto_De_Nos-Porfiado-CD.jpg",
+                temas: [
+                    { pos: 1, nombre: "Algo Mejor Que Hacer", archivo: "algo.mp3" },
+                    { pos: 2, nombre: "Cuando Sea Grande", archivo: "grande.mp3" },
+                    { pos: 3, nombre: "Solo Estoy Sobreviviendo", archivo: "sobreviviendo.mp3" },
+                    { pos: 4, nombre: "Buen Dia Benito", archivo: "benito.mp3" },
+                    { pos: 5, nombre: "El Lado Soleado De La Calle", archivo: "soleado.mp3" },
+                    { pos: 6, nombre: "Lo Malo de ser bueno", archivo: "loMalo.mp3" },
+                    { pos: 7, nombre: "Enamorado Tuyo", archivo: "enamorado.mp3" },
+                    { pos: 8, nombre: "Balcon De Paul", archivo: "paul.mp3" },
+                    { pos: 9, nombre: "Vida Ingrata", archivo: "vidaingrata.mp3" },
+                    { pos: 10, nombre: "No Te Invite a Mi Cumpleaños", archivo: "cumpleaños.mp3" },
+                    { pos: 11, nombre: "Insaciable", archivo: "insaciable.mp3" },
+                    { pos: 12, nombre: "Todos Pasan Por Mi Rancho", archivo: "rancho.mp3" },
+                    { pos: 13, nombre: "", archivo: "" }, { pos: 14, nombre: "", archivo: "" }, { pos: 15, nombre: "", archivo: "" }, { pos: 16, nombre: "", archivo: "" }
                 ]
             }
         ];
